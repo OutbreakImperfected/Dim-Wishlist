@@ -2,43 +2,58 @@ Auto Rifles:
 
 // The Last Breath
 // PVP
+== The Last Breath ['Smallbore', 'Ricochet Rounds', 'Dynamic Sway Reduction', 'Rangefinder']
 dimwishlist:item=507038823&perks=1482024992,1885400500,1359896290,2846385770,384158423
 // PVE
+== The Last Breath ['Arrowhead Brake', 'Ricochet Rounds', 'Subsistence', 'Rangefinder']
 dimwishlist:item=507038823&perks=839105230,1885400500,1820235745,2846385770,384158423
 
 // BrayTech Werewolf
+== BrayTech Werewolf ['Smallbore', 'Ricochet Rounds', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=528834068&perks=1482024992,1885400500,1359896290,1890422124,384158423
 
 // Scathelocke
+== Scathelocke ['Smallbore', 'Tactical Mag', 'Subsistence', 'Rampage']
 dimwishlist:item=602618796&perks=1482024992,106909392,1820235745,3425386926,384158423
 
 // Gnawing Hunger
 // PVE
+== Gnawing Hunger ['Smallbore', 'Tactical Mag', 'Subsistence', 'Rampage']
 dimwishlist:item=821154603&perks=1482024992,106909392,1820235745,3425386926,384158423
 // PVP
+== Gnawing Hunger ['Smallbore', 'Steady Rounds', 'Tap the Trigger', 'Kill Clip']
 dimwishlist:item=821154603&perks=1482024992,3177308360,1890422124,1015611457,384158423
 
 // Chroma Rush
 // PVE
+== Chroma Rush ['Arrowhead Brake', 'Accurized Rounds', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=1119734784&perks=839105230,3142289711,1359896290,1890422124,2697220197
+== Chroma Rush ['Arrowhead Brake', 'Steady Rounds', 'Subsistence', 'Rampage']
 dimwishlist:item=1119734784&perks=839105230,3177308360,1820235745,3425386926,2697220197
 // PVP
+== Chroma Rush ['Smallbore', 'Accurized Rounds', 'Dynamic Sway Reduction', 'Kill Clip']
 dimwishlist:item=1119734784&perks=1482024992,3142289711,1359896290,1015611457,2697220197
 
 // Seventh Seraph Carbine
+== Seventh Seraph Carbine ['Arrowhead Brake', 'Ricochet Rounds', 'Auto-Loading Holster', 'Rampage']
 dimwishlist:item=1561006927&perks=839105230,1885400500,3300816228,3425386926,2697220197
 
 // Shadow Price(Adept)
+== Shadow Price (Adept) ['Arrowhead Brake', 'Flared Magwell', 'Overflow', 'Disruption Break']
 dimwishlist:item=2147010335&perks=839105230,3230963543,3643424744,1683379515,384158423
 
 // Sorrow's Verse
 // PVE
+== Sorrow's Verse ['Arrowhead Brake', 'Flared Magwell', 'Subsistence', 'Rampage']
 dimwishlist:item=2496875173&perks=839105230,3230963543,1820235745,3425386926,384158423
+== Sorrow's Verse ['Arrowhead Brake', 'Flared Magwell', 'Dynamic Sway Reduction', 'Snapshot Sights']
 dimwishlist:item=2496875173&perks=839105230,3230963543,1359896290,957782887,384158423
 // PVP
+== Sorrow's Verse ['Arrowhead Brake', 'Steady Rounds', 'Dynamic Sway Reduction', 'Snapshot Sights']
 dimwishlist:item=2496875173&perks=839105230,3177308360,1359896290,957782887,384158423
 
 // Horror Story
+== Horror Story ['Red Dot Micro', 'Steady Rounds', 'Subsistence', 'Snapshot Sights']
 dimwishlist:item=3829285960&perks=2405638014,3177308360,1820235745,957782887,384158423
 
 
@@ -48,78 +63,119 @@ dimwishlist:item=3829285960&perks=2405638014,3177308360,1820235745,957782887,384
 
 Hand Cannon:
 // Annual Skate
+== Annual Skate ['Fastdraw HCS', 'Accurized Rounds', 'Surplus', 'Opening Shot']
 dimwishlist:item=6857689&perks=1926090094,3142289711,3436462433,47981717,186337601
+== Annual Skate ['Fastdraw HCS', 'Accurized Rounds', 'Surplus', 'Timed Payload']
 dimwishlist:item=6857689&perks=1926090094,3142289711,3436462433,1954620775,186337601
+== Annual Skate ['Fastdraw HCS', 'Accurized Rounds', 'Slideshot', 'Opening Shot']
 dimwishlist:item=6857689&perks=1926090094,3142289711,3161816588,47981717,186337601
+== Annual Skate ['Fastdraw HCS', 'Accurized Rounds', 'Slideshot', 'Timed Payload']
 dimwishlist:item=6857689&perks=1926090094,3142289711,3161816588,1954620775,186337601
 
 // Ancient Gospel
+== Ancient Gospel ['Fluted Barrel', 'Accurized Rounds', 'Rapid Hit', 'Rangefinder']
 dimwishlist:item=48643186&perks=1840239774,3142289711,247725512,2846385770,2697220197
+== Ancient Gospel ['Fluted Barrel', 'Accurized Rounds', 'Rapid Hit', 'Kill Clip']
 dimwishlist:item=48643186&perks=1840239774,3142289711,247725512,1015611457,2697220197
 
 // Eyasluna
+== Eyasluna ['SteadyHand HCS', 'High-Caliber Rounds', 'Rangefinder', 'Snapshot Sights']
 dimwishlist:item=235827225&perks=1926090095,1561002382,2846385770,957782887,2697220197
+== Eyasluna ['Fastdraw HCS', 'High-Caliber Rounds', 'Rangefinder', 'Snapshot Sights']
 dimwishlist:item=235827225&perks=1926090094,1561002382,2846385770,957782887,2697220197
+== Eyasluna ['SteadyHand HCS', 'High-Caliber Rounds', 'Rapid Hit', 'Snapshot Sights']
 dimwishlist:item=235827225&perks=1926090095,1561002382,247725512,957782887,2697220197
+== Eyasluna ['SteadyHand HCS', 'Ricochet Rounds', 'Rangefinder', 'Snapshot Sights']
 dimwishlist:item=235827225&perks=1926090095,1885400500,2846385770,957782887,2697220197
+== Eyasluna ['SteadyHand HCS', 'Ricochet Rounds', 'Rangefinder', 'Headstone']
 dimwishlist:item=235827225&perks=1926090095,1885400500,2846385770,124408337,2697220197
 
 // Survivor's Epitaph
+== Survivor's Epitaph ['Arrowhead Brake', 'Ricochet Rounds', 'Rapid Hit', 'Snapshot Sights']
 dimwishlist:item=310708513&perks=839105230,1885400500,247725512,957782887,2697220197
 
 // Waking Vigil
+== Waking Vigil ['SteadyHand HCS', 'Ricochet Rounds', 'Rangefinder', 'Snapshot Sights']
 dimwishlist:item=334171687&perks=1926090095,1885400500,2846385770,957782887
+== Waking Vigil ['Fastdraw HCS', 'Ricochet Rounds', 'Rangefinder', 'Snapshot Sights']
 dimwishlist:item=334171687&perks=1926090094,1885400500,2846385770,957782887,186337601
+== Waking Vigil ['Fastdraw HCS', 'Ricochet Rounds', 'Rangefinder', 'Opening Shot']
 dimwishlist:item=334171687&perks=1926090094,1885400500,2846385770,47981717,186337601
+== Waking Vigil ['Fastdraw HCS', 'Ricochet Rounds', 'Rapid Hit', 'Opening Shot']
 dimwishlist:item=334171687&perks=1926090094,1885400500,247725512,47981717,186337601
+== Waking Vigil ['Fastdraw HCS', 'Ricochet Rounds', 'Rangefinder', 'Kill Clip']
 dimwishlist:item=334171687&perks=1926090094,1885400500,2846385770,1015611457,186337601
 
 // The Palindrome
+== Waking Vigil ['Fastdraw HCS', 'Ricochet Rounds', 'Rangefinder', 'Kill Clip']
 dimwishlist:item=334171687&perks=1926090094,1885400500,2846385770,1015611457,186337601
+== The Palindrome ['Fluted Barrel', 'Ricochet Rounds', 'Quickdraw', 'Rangefinder']
 dimwishlist:item=432476743&perks=1840239774,1885400500,706527188,2846385770,186337601
 
 // The Palindrome (Adept)
+== The Palindrome (Adept) ['Smallbore', 'Ricochet Rounds', 'Quickdraw', 'Rangefinder']
 dimwishlist:item=1481892490&perks=1482024992,1885400500,706527188,2846385770,2697220197
+== The Palindrome (Adept) ['Fluted Barrel', 'Ricochet Rounds', 'Quickdraw', 'Rangefinder']
 dimwishlist:item=1481892490&perks=1840239774,1885400500,706527188,2846385770,186337601
 
 // Bottom Dollar
+== Bottom Dollar ['Hammer-Forged Rifling', 'Accurized Rounds', 'Rapid Hit', 'Explosive Payload']
 dimwishlist:item=1046651176&perks=3250034553,3142289711,247725512,3038247973,2697220197
+== Bottom Dollar ['Hammer-Forged Rifling', 'Accurized Rounds', 'Rangefinder', 'Explosive Payload']
 dimwishlist:item=1046651176&perks=3250034553,3142289711,2846385770,3038247973,2697220197
+== Bottom Dollar ['Arrowhead Brake', 'Tactical Mag', 'Rangefinder', 'Opening Shot']
 dimwishlist:item=1046651176&perks=839105230,106909392,2846385770,47981717,384158423
+== Bottom Dollar ['Arrowhead Brake', 'Tactical Mag', 'Rapid Hit', 'Opening Shot']
 dimwishlist:item=1046651176&perks=839105230,106909392,247725512,47981717,384158423
 
 // Fatebringer (Timelost)
+== Fatebringer (Timelost) ['Fluted Barrel', 'Accurized Rounds', 'Explosive Payload', 'Opening Shot']
 dimwishlist:item=1216319404&perks=1840239774,3142289711,3038247973,47981717,2697220197
 
 // Judgement
+== Judgment ['Fastdraw HCS', 'Flared Magwell', 'Moving Target', 'Opening Shot']
 dimwishlist:item=1476654960&perks=1926090094,3230963543,588594999,47981717,186337601
 
 // Vulpecula
+== Vulpecula ['Fluted Barrel', 'Flared Magwell', 'Killing Wind', 'Explosive Payload']
 dimwishlist:item=1622998472&perks=1840239774,3230963543,2450788523,3038247973,2697220197
+== Vulpecula ['Fluted Barrel', 'Flared Magwell', 'Killing Wind', 'Opening Shot']
 dimwishlist:item=1622998472&perks=1840239774,3230963543,2450788523,47981717,186337601
 
 // Igneous Hammer
+== Igneous Hammer ['Hammer-Forged Rifling', 'High-Caliber Rounds', 'Rapid Hit', 'Snapshot Sights']
 dimwishlist:item=2351180975&perks=3250034553,1561002382,247725512,957782887,2697220197
+== Igneous Hammer ['Fluted Barrel', 'Ricochet Rounds', 'Rapid Hit', 'Opening Shot']
 dimwishlist:item=2351180975&perks=1840239774,1885400500,247725512,47981717,186337601
+== Igneous Hammer ['Fluted Barrel', 'Ricochet Rounds', 'Rapid Hit', 'Opening Shot']
 dimwishlist:item=2351180975&perks=1840239774,1885400500,247725512,47981717,186337601
 
 // Igneous Hammer (Adept)
+== Igneous Hammer (Adept) ['Fluted Barrel', 'Ricochet Rounds', 'Rapid Hit', 'Elemental Capacitor']
 dimwishlist:item=2527666306&perks=1840239774,1885400500,247725512,3511092054,186337601
+== Igneous Hammer (Adept) ['Smallbore', 'Ricochet Rounds', 'Rapid Hit', 'Opening Shot']
 dimwishlist:item=2527666306&perks=1482024992,1885400500,247725512,47981717,186337601
 
 // Dire Promise
+== Dire Promise ['Fastdraw HCS', 'Ricochet Rounds', 'Snapshot Sights', 'Rangefinder']
 dimwishlist:item=2742838701&perks=1926090094,1885400500,957782887,2846385770,2697220197
+== Dire Promise ['Sureshot HCS', 'Ricochet Rounds', 'Snapshot Sights', 'Elemental Capacitor']
 dimwishlist:item=2742838701&perks=1926090091,1885400500,957782887,3511092054,2697220197
+== Dire Promise ['Sureshot HCS', 'Ricochet Rounds', 'Opening Shot', 'Elemental Capacitor']
 dimwishlist:item=2742838701&perks=1926090091,1885400500,47981717,3511092054,2697220197
 
 // Seveth Seraph Officer
+== Seventh Seraph Officer Revolver ['Arrowhead Brake', 'Flared Magwell', 'Threat Detector', 'Timed Payload']
 dimwishlist:item=3037520408&perks=839105230,3230963543,4071163871,1954620775,186337601
 
 // Posterity
+== Posterity ['Smallbore', 'Accurized Rounds', 'Surplus', 'Opening Shot']
 dimwishlist:item=3281285075&perks=1482024992,3142289711,3436462433,47981717,2697220197
+== Posterity ['Smallbore', 'Accurized Rounds', 'Rapid Hit', 'Opening Shot']
 dimwishlist:item=3281285075&perks=1482024992,3142289711,247725512,47981717,2697220197
 
 // Loud Lullaby
+== Loud Lullaby ['Hammer-Forged Rifling', 'Accurized Rounds', 'Moving Target', 'Explosive Payload']
 dimwishlist:item=3924212056&perks=3250034553,3142289711,588594999,3038247973,2697220197
 
 
@@ -127,21 +183,29 @@ dimwishlist:item=3924212056&perks=3250034553,3142289711,588594999,3038247973,269
 
 Pulse Rifle
 // Forge's Pledge
+== Forge's Pledge ['Arrowhead Brake', 'Steady Rounds', 'Surplus', 'Snapshot Sights']
 dimwishlist:item=1076810832&perks=839105230,3177308360,3436462433,957782887,384158423
+== Forge's Pledge ['Corkscrew Rifling', 'Accurized Rounds', 'Heating Up', 'Rampage']
 dimwishlist:item=1076810832&perks=4090651448,3142289711,1570042021,3425386926,384158423
 
 // The Messenger (Adept)
+== The Messenger (Adept) ['Smallbore', 'Ricochet Rounds', 'Rapid Hit', 'Desperado']
 dimwishlist:item=1173780905&perks=1482024992,1885400500,247725512,3047969693,2697220197
 
 // Gridskipper
+== Gridskipper ['Arrowhead Brake', 'Ricochet Rounds', 'Heating Up', 'Snapshot Sights']
 dimwishlist:item=1621558458&perks=839105230,1885400500,1570042021,957782887,384158423
+== Gridskipper ['Arrowhead Brake', 'Ricochet Rounds', 'Moving Target', 'Snapshot Sights']
 dimwishlist:item=1621558458&perks=839105230,1885400500,588594999,957782887,384158423
 
 // Darkest Before
+== Darkest Before ['Arrowhead Brake', 'Ricochet Rounds', 'Surplus', 'Rampage']
 dimwishlist:item=2481758391&perks=839105230,1885400500,3436462433,3425386926,384158423
 
 // BXR-55 Battler
+== BxR-55 Battler ['Hammer-Forged Rifling', 'Accurized Rounds', 'Perpetual Motion', 'Kill Clip']
 dimwishlist:item=2708806099&perks=3250034553,3142289711,1428297954,1015611457,2697220197
+== BxR-55 Battler ['Polygonal Rifling', 'Accurized Rounds', 'Perpetual Motion', 'Kill Clip']
 dimwishlist:item=2708806099&perks=1392496348,3142289711,1428297954,1015611457,2697220197
 
 
@@ -151,55 +215,75 @@ dimwishlist:item=2708806099&perks=1392496348,3142289711,1428297954,1015611457,26
 Scout Rifle:
 
 // Contingency Plan
+== Contingency Plan ['Arrowhead Brake', 'Accurized Rounds', 'Firmly Planted', 'Kill Clip']
 dimwishlist:item=577528837&perks=839105230,3142289711,280464955,1015611457,2697220197
 
 // Hung Jury (Adept)
+== Hung Jury SR4 (Adept) ['Arrowhead Brake', 'Accurized Rounds', 'Rapid Hit', 'Explosive Payload']
 dimwishlist:item=681067419&perks=839105230,3142289711,247725512,3038247973,2697220197
 
 // Servant Leader
+== Servant Leader ['Arrowhead Brake', 'Tactical Mag', 'Subsistence', 'Rampage']
 dimwishlist:item=1107446438&perks=839105230,106909392,1820235745,3425386926,384158423
 
 // Trustee
+== Trustee ['Arrowhead Brake', 'Flared Magwell', 'Reconstruction', 'Redirection']
 dimwishlist:item=1392919471&perks=839105230,3230963543,1523832109,3201496230,384158423
 
 // Vouchsafe
+== Vouchsafe ['Smallbore', 'Accurized Rounds', 'Rapid Hit', 'Explosive Payload']
 dimwishlist:item=3242168339&perks=1482024992,3142289711,247725512,3038247973,384158423
 
 // Nightwatch
+== Night Watch ['Smallbore', 'Flared Magwell', 'Rapid Hit', 'Explosive Payload']
 dimwishlist:item=3504336176&perks=1482024992,3230963543,247725512,3038247973,384158423
 
 
 
 
 Submachine Guns:
-// Seventh Seraph VY-7 
+// Seventh Seraph VY-7
+== Seventh Seraph VY-7 ['Fluted Barrel', 'Flared Magwell', 'Firmly Planted', 'Vorpal Weapon']
 dimwishlist:item=766323545&perks=1840239774,3230963543,280464955,1546637391,384158423
 
 // Borrowed Time
+== Borrowed Time ['Chambered Compensator', 'Ricochet Rounds', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=875848769&perks=3661387068,1885400500,1359896290,1890422124,2697220197
+== Borrowed Time ['Arrowhead Brake', 'Flared Magwell', 'Rangefinder', 'Snapshot Sights']
 dimwishlist:item=875848769&perks=839105230,3230963543,2846385770,957782887,384158423
 
 // Extrodinary Rendition
+== Extraordinary Rendition ['Smallbore', 'Tactical Mag', 'Subsistence', 'Rampage']
 dimwishlist:item=1097616550&perks=1482024992,106909392,1820235745,3425386926,384158423
+== Extraordinary Rendition ['Smallbore', 'Accurized Rounds', 'Surplus', 'Tap the Trigger']
 dimwishlist:item=1097616550&perks=1482024992,3142289711,3436462433,1890422124,384158423
 
 // coldfront
+== Cold Front ['Accurized Rounds', 'Dynamic Sway Reduction', 'Rampage', 'Masterwork']
 dimwishlist:item=1506719573&perks=3142289711,1359896290,3425386926,384158423
+== Cold Front ['Accurized Rounds', 'Subsistence', 'Rampage', 'Masterwork']
 dimwishlist:item=1506719573&perks=3142289711,1820235745,3425386926,384158423
 
-// Ikelos 
+// Ikelos
+== IKELOS_SMG_v1.0.2 ['Smallbore', 'Seraph Rounds', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=2222560548&perks=1482024992,1140096971,1359896290,1890422124,384158423
+== IKELOS_SMG_v1.0.2 ['Smallbore', 'Seraph Rounds', 'Subsistence', 'Disruption Break']
 dimwishlist:item=2222560548&perks=1482024992,1140096971,1820235745,1683379515,384158423
 
 // Shayura's Wrath
+== Shayura's Wrath ['Full Bore', 'Accurized Rounds', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=3682803680&perks=202670084,3142289711,1359896290,1890422124,2697220197
 
 // Shayura's Wrath (Adept)
+== Shayura's Wrath (Adept) ['Full Bore', 'Accurized Rounds', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=4023807721&perks=202670084,3142289711,1359896290,1890422124,2697220197
 
 // Multimach
+== Multimach CCX ['Model 8 Red', 'Accurized Rounds', 'Killing Wind', 'Iron Reach']
 dimwishlist:item=3717177717&perks=663495154,3142289711,2450788523,591790007,2697220197
+== Multimach CCX ['Model 8 Red', 'Accurized Rounds', 'Dynamic Sway Reduction', 'Iron Reach']
 dimwishlist:item=3717177717&perks=663495154,3142289711,1359896290,591790007,2697220197
+== Multimach CCX ['Model 8 Red', 'Accurized Rounds', 'Dynamic Sway Reduction', 'Iron Grip']
 dimwishlist:item=3717177717&perks=663495154,3142289711,1359896290,11551321,2697220197
 
 
@@ -207,279 +291,388 @@ dimwishlist:item=3717177717&perks=663495154,3142289711,1359896290,11551321,26972
 Bows:
 
 // Whispering Slab
+== Multimach CCX ['Model 8 Red', 'Accurized Rounds', 'Dynamic Sway Reduction', 'Iron Grip']
 dimwishlist:item=3717177717&perks=663495154,3142289711,1359896290,11551321,2697220197
+== Whispering Slab ['Elastic String', 'Straight Fletching', "Archer's Tempo", 'Vorpal Weapon']
 dimwishlist:item=211938782&perks=2801223209,3827198035,201365942,1546637391,1639384016
 
 // Arsenic Bite
+== Arsenic Bite-4b ['Elastic String', 'Fiberglass Arrow Shaft', 'Snapshot Sights', 'Explosive Head']
 dimwishlist:item=720351795&perks=2801223209,3429800428,957782887,3365897133,1639384016
 
 // Biting Winds
+== Biting Winds ['Elastic String', 'Straight Fletching', 'Rapid Hit', 'Explosive Head']
 dimwishlist:item=1621657423&perks=2801223209,3827198035,247725512,3365897133,1639384016
 
 // Tyranny of Heaven
+== Tyranny of Heaven ['Elastic String', 'Straight Fletching', "Archer's Tempo", 'Explosive Head']
 dimwishlist:item=2721249463&perks=2801223209,3827198035,201365942,3365897133,1639384016
 
 // Imperial Needle
+== Imperial Needle ['Elastic String', 'Straight Fletching', "Archer's Tempo", 'Wellspring']
 dimwishlist:item=3460122497&perks=2801223209,3827198035,201365942,3592538738,1639384016
 
 // Accrued Redemption
+== Accrued Redemption ['Elastic String', 'Straight Fletching', "Archer's Tempo", 'Explosive Head']
 dimwishlist:item=4095896073&perks=2801223209,3827198035,201365942,3365897133,1639384016
 
 
 Shotguns:
 
 // Riiswalker
+== Riiswalker ['Full Choke', 'Appended Mag', 'Hip-Fire Grip', 'Iron Reach']
 dimwishlist:item=108221785&perks=1047830412,1087426260,1866048759,591790007,2697220197
+== Riiswalker ['Full Choke', 'Accurized Rounds', 'Hip-Fire Grip', 'Iron Reach']
 dimwishlist:item=108221785&perks=1047830412,3142289711,1866048759,591790007,2697220197
+== Riiswalker ['Full Choke', 'Accurized Rounds', 'Surplus', 'Iron Reach']
 dimwishlist:item=108221785&perks=1047830412,3142289711,3436462433,591790007,2697220197
 
 
 // The Decided
+== The Deicide ['Full Choke', 'Accurized Rounds', 'Hip-Fire Grip', 'Elemental Capacitor']
 dimwishlist:item=217140611&perks=1047830412,3142289711,1866048759,3511092054,186337601
+== The Deicide ['Barrel Shroud', 'Light Mag', 'Lead from Gold', 'One-Two Punch']
 dimwishlist:item=217140611&perks=1300023272,679225683,1556840489,2679249093,186337601
 
 // Retold Tale
+== Retold Tale ['Full Choke', 'Light Mag', 'Slideshot', 'Snapshot Sights']
 dimwishlist:item=346136302&perks=1047830412,679225683,3161816588,957782887,186337601
 
 // Sojourner's Tale
+== Sojourner's Tale ['Hammer-Forged Rifling', 'Accurized Rounds', 'Threat Detector', 'Opening Shot']
 dimwishlist:item=599895591&perks=3250034553,3142289711,4071163871,47981717,2697220197
+== Sojourner's Tale ['Fluted Barrel', 'Steady Rounds', 'Threat Detector', 'Opening Shot']
 dimwishlist:item=599895591&perks=1840239774,3177308360,4071163871,47981717,186337601
+== Sojourner's Tale ['Fluted Barrel', 'Steady Rounds', 'Threat Detector', 'Opening Shot']
 dimwishlist:item=599895591&perks=1840239774,3177308360,4071163871,47981717,186337601
 
 // Found Verdict (Timelost)
+== Found Verdict (Timelost) ['Barrel Shroud', 'Assault Mag', 'Surplus', 'Opening Shot']
 dimwishlist:item=631439337&perks=1300023272,791862061,3436462433,47981717,186337601
+== Found Verdict (Timelost) ['Full Choke', 'Accurized Rounds', 'Slideshot', 'Opening Shot']
 dimwishlist:item=631439337&perks=1047830412,3142289711,3161816588,47981717,186337601
 
 // Wastelander M5
+== Wastelander M5 ['Barrel Shroud', 'Assault Mag', 'Slideshot', 'Opening Shot']
 dimwishlist:item=1679868061&perks=1300023272,791862061,3161816588,47981717,2697220197
+== Wastelander M5 ['Full Choke', 'Assault Mag', 'Slideshot', 'Opening Shot']
 dimwishlist:item=1679868061&perks=1047830412,791862061,3161816588,47981717,2697220197
+== Wastelander M5 ['Full Choke', 'Assault Mag', 'Perpetual Motion', 'Opening Shot']
 dimwishlist:item=1679868061&perks=1047830412,791862061,1428297954,47981717,2697220197
+== Wastelander M5 ['Barrel Shroud', 'Assault Mag', 'Perpetual Motion', 'Opening Shot']
 dimwishlist:item=1679868061&perks=1300023272,791862061,1428297954,47981717,2697220197
 
 // Seventh Seraph Shotgun
+== Seventh Seraph CQC-12 ['Full Choke', 'Accurized Rounds', 'Slideshot', 'Snapshot Sights']
 dimwishlist:item=1821724780&perks=1047830412,3142289711,3161816588,957782887,186337601
 
 // Matador 64
+== Matador 64 ['Full Choke', 'Assault Mag', 'Threat Detector', 'Opening Shot']
 dimwishlist:item=2563012876&perks=1047830412,791862061,4071163871,47981717,186337601
+== Matador 64 ['Full Choke', 'Accurized Rounds', 'Threat Detector', 'Opening Shot']
 dimwishlist:item=2563012876&perks=1047830412,3142289711,4071163871,47981717,186337601
+== Matador 64 ['Barrel Shroud', 'Accurized Rounds', 'Threat Detector', 'Opening Shot']
 dimwishlist:item=2563012876&perks=1300023272,3142289711,4071163871,47981717,186337601
+== Matador 64 ['Barrel Shroud', 'Accurized Rounds', 'Perpetual Motion', 'Opening Shot']
 dimwishlist:item=2563012876&perks=1300023272,3142289711,1428297954,47981717,186337601
+== Matador 64 ['Barrel Shroud', 'Accurized Rounds', 'Pulse Monitor', 'Opening Shot']
 dimwishlist:item=2563012876&perks=1300023272,3142289711,972757866,47981717,186337601
 
 // A sudden Death
+== A Sudden Death ['Full Choke', 'Assault Mag', 'Slideshot', 'Snapshot Sights']
 dimwishlist:item=2855157553&perks=1047830412,791862061,3161816588,957782887,186337601
+== A Sudden Death ['Full Choke', 'Assault Mag', 'Surplus', 'Elemental Capacitor']
 dimwishlist:item=2855157553&perks=1047830412,791862061,3436462433,3511092054,186337601
 
 // Toil and Trouble
+== Toil and Trouble ['Full Choke', 'Assault Mag', 'Slideshot', 'Snapshot Sights']
 dimwishlist:item=2957367743&perks=1047830412,791862061,3161816588,957782887,186337601
 
 // Fractethyst
+== Fractethyst ['Barrel Shroud', 'Assault Mag', 'Slideshot', 'Opening Shot']
 dimwishlist:item=3184681056&perks=1300023272,791862061,3161816588,47981717,186337601
 
 // Found Verdict
+== Found Verdict ['Barrel Shroud', 'Assault Mag', 'Surplus', 'Opening Shot']
 dimwishlist:item=3197270240&perks=1300023272,791862061,3436462433,47981717,186337601
 
 // First In, Last Out
+== First In, Last Out ['Hammer-Forged Rifling', 'Assault Mag', 'Slideshot', 'Opening Shot']
 dimwishlist:item=3616586446&perks=3250034553,791862061,3161816588,47981717,186337601
 
 // Heritage
+== Heritage ['Corkscrew Rifling', 'Assault Mag', 'Slideshot', 'Snapshot Sights']
 dimwishlist:item=4248569242&perks=4090651448,791862061,3161816588,957782887,2697220197
 
 
 
 Sniper:
 // uzume RR4 (Adept)
+== Uzume RR4 (Adept) ['Arrowhead Brake', 'Flared Magwell', 'Snapshot Sights', 'Demolitionist']
 dimwishlist:item=852228780&perks=839105230,3230963543,957782887,3523296417,186337601
+== Uzume RR4 (Adept) ['Fluted Barrel', 'Flared Magwell', 'Snapshot Sights', 'Demolitionist']
 dimwishlist:item=852228780&perks=1840239774,3230963543,957782887,3523296417,186337601
+== Uzume RR4 (Adept) ['Fluted Barrel', 'Accurized Rounds', 'Snapshot Sights', 'Demolitionist']
 dimwishlist:item=852228780&perks=1840239774,3142289711,957782887,3523296417,186337601
+== Uzume RR4 (Adept) ['Arrowhead Brake', 'Accurized Rounds', 'Snapshot Sights', 'Demolitionist']
 dimwishlist:item=852228780&perks=839105230,3142289711,957782887,3523296417,186337601
 
 // Occluded Finality
+== Occluded Finality ['Fluted Barrel', 'Ricochet Rounds', 'Snapshot Sights', 'Opening Shot']
 dimwishlist:item=852551895&perks=1840239774,1885400500,957782887,47981717,186337601
+== Far Future ['Smallbore', 'Accurized Rounds', 'Quickdraw', 'Opening Shot']
 dimwishlist:item=893527433&perks=1482024992,3142289711,706527188,47981717,2697220197
 
 // Succession
+== Succession ['Smallbore', 'Steady Rounds', 'Reconstruction', 'Recombination']
 dimwishlist:item=2990047042&perks=1482024992,3177308360,1523832109,469285294,384158423
+== Succession ['Smallbore', 'Steady Rounds', 'Lead from Gold', 'Vorpal Weapon']
 dimwishlist:item=2990047042&perks=1482024992,3177308360,1556840489,1546637391,384158423
 
 // Eye of Sol
+== Eye of Sol ['Fluted Barrel', 'Accurized Rounds', 'Surplus', 'Snapshot Sights']
 dimwishlist:item=3164743584&perks=1840239774,3142289711,3436462433,957782887
+== Eye of Sol ['Smallbore', 'Accurized Rounds', 'Surplus', 'Snapshot Sights']
 dimwishlist:item=3164743584&perks=1482024992,3142289711,3436462433,957782887
+== Eye of Sol ['Arrowhead Brake', 'Accurized Rounds', 'Surplus', 'Snapshot Sights']
 dimwishlist:item=3164743584&perks=839105230,3142289711,3436462433,957782887
 
 // Twilight Oath
+== Twilight Oath ['Fluted Barrel', 'Accurized Rounds', 'Opening Shot', 'Snapshot Sights']
 dimwishlist:item=3297863558&perks=1840239774,3142289711,47981717,957782887,186337601
+== Twilight Oath ['Fluted Barrel', 'Accurized Rounds', 'Surplus', 'Snapshot Sights']
 dimwishlist:item=3297863558&perks=1840239774,3142289711,3436462433,957782887,186337601
 
 // The Long Walk
+== The Long Walk ['Smallbore', 'Light Mag', 'Killing Wind', 'Snapshot Sights']
 dimwishlist:item=3326850591&perks=1482024992,679225683,2450788523,957782887,758092021
 
 // Omniscient Eye
+== Omniscient Eye ['Fluted Barrel', 'Accurized Rounds', 'No Distractions', 'Snapshot Sights']
 dimwishlist:item=3454326177&perks=1840239774,3142289711,2866798147,957782887,186337601
+== Omniscient Eye ['Smallbore', 'Accurized Rounds', 'No Distractions', 'Snapshot Sights']
 dimwishlist:item=3454326177&perks=1482024992,3142289711,2866798147,957782887,186337601
 
 //Frozen Orbit
+== Frozen Orbit ['Smallbore', 'Accurized Rounds', 'Surplus', 'Snapshot Sights']
 dimwishlist:item=3473290087&perks=1482024992,3142289711,3436462433,957782887,2697220197
 
 // Eye of Sol (Adept)
+== Eye of Sol (Adept) ['Smallbore', 'Accurized Rounds', 'Firmly Planted', 'Snapshot Sights']
 dimwishlist:item=3637570176&perks=1482024992,3142289711,280464955,957782887,186337601
+== Eye of Sol (Adept) ['Fluted Barrel', 'Accurized Rounds', 'Firmly Planted', 'Snapshot Sights']
 dimwishlist:item=3637570176&perks=1840239774,3142289711,280464955,957782887,186337601
 
 // Praedyth's Revenge
+== Praedyth's Revenge ['Fluted Barrel', 'Accurized Rounds', 'Moving Target', 'Opening Shot']
 dimwishlist:item=3653573172&perks=1840239774,3142289711,588594999,47981717,186337601
+== Praedyth's Revenge ['Full Bore', 'Accurized Rounds', 'Quickdraw', 'Opening Shot']
 dimwishlist:item=3653573172&perks=202670084,3142289711,706527188,47981717,2697220197
 
 // Shepherd's Watch
+== Shepherd's Watch ['Fluted Barrel', 'Accurized Rounds', 'Moving Target', 'Snapshot Sights']
 dimwishlist:item=3743729616&perks=1840239774,3142289711,588594999,957782887,186337601
+== Shepherd's Watch ['Fluted Barrel', 'Flared Magwell', 'Moving Target', 'Snapshot Sights']
 dimwishlist:item=3743729616&perks=1840239774,3230963543,588594999,957782887,186337601
 
 // Long Shadow
+== Long Shadow ['ATA Scout', 'Flared Magwell', 'Snapshot Sights', 'Moving Target']
 dimwishlist:item=3745990145&perks=893526892,3230963543,957782887,588594999,186337601
 
 // 1k Yard Stare
+== 1000 Yard Stare ['Fluted Barrel', 'Flared Magwell', 'Quickdraw', 'Snapshot Sights']
 dimwishlist:item=4164201232&perks=1840239774,3230963543,706527188,957782887,186337601
 
 // Adored
+== Adored ['Hammer-Forged Rifling', 'Accurized Rounds', 'Killing Wind', 'Snapshot Sights']
 dimwishlist:item=4184808992&perks=3250034553,3142289711,2450788523,957782887,186337601
 
 
 Fusion Rifles:
 // Main Ingredient
+== Adored ['Hammer-Forged Rifling', 'Accurized Rounds', 'Killing Wind', 'Snapshot Sights']
 dimwishlist:item=4184808992&perks=3250034553,3142289711,2450788523,957782887,186337601
 
 // Plug one (Adept)
+== PLUG ONE.1 (Adept) ['Arrowhead Brake', 'Accelerated Coils', 'Killing Wind', 'Reservoir Burst']
 dimwishlist:item=534775659&perks=839105230,689005463,2450788523,1427256713,384158423
 
 // Glacioclasm
+== Glacioclasm ['Arrowhead Brake', 'Accelerated Coils', 'Subsistence', 'Reservoir Burst']
 dimwishlist:item=1030895163&perks=839105230,689005463,1820235745,1427256713,384158423
+== Glacioclasm ['Arrowhead Brake', 'Accelerated Coils', 'Subsistence', 'Reservoir Burst']
 dimwishlist:item=1030895163&perks=839105230,689005463,1820235745,1427256713,3128594062
 
 // Zealot's Reward
+== Zealot's Reward ['Chambered Compensator', 'Accelerated Coils', 'Shield Disorient', 'Disruption Break']
 dimwishlist:item=2209003210&perks=3661387068,689005463,3275789089,1683379515,3128594062
 
 // Caresian Coordinate
+== Cartesian Coordinate ['Red Dot 2 MOA', 'Accelerated Coils', 'Lead from Gold', 'Vorpal Weapon']
 dimwishlist:item=2481881293&perks=2405638015,689005463,1556840489,1546637391,3128594062
 
 //Timelines' Vertex
+== Timelines' Vertex ['Flash HS5', 'Accelerated Coils', 'Lead from Gold', 'Disruption Break']
 dimwishlist:item=3055192515&perks=1628165637,689005463,1556840489,1683379515,3128594062
 
 Tracer Rifle:
 // Retraced Path
+== Retraced Path ['Arrowhead Brake', 'Tactical Battery', 'Subsistence', 'Disruption Break']
 dimwishlist:item=548958835&perks=839105230,732557052,1820235745,1683379515,2697220197
+== Retraced Path ['Arrowhead Brake', 'Tactical Battery', 'Subsistence', 'One for All']
 dimwishlist:item=548958835&perks=839105230,732557052,1820235745,4049631843,2697220197
+== Retraced Path ['Arrowhead Brake', 'Tactical Battery', 'Subsistence', 'Golden Tricorn']
 dimwishlist:item=548958835&perks=839105230,732557052,1820235745,2610012052,2697220197
 
 Grenade Launcher:
 // Ignition code
+== Ignition Code ['Smart Drift Control', 'Blinding Grenades', 'Slideshot', 'Demolitionist']
 dimwishlist:item=304659313&perks=3798852852,3032599245,3161816588,3523296417,186337601
 
 // Deafening Whisper
+== Deafening Whisper ['Quick Launch', 'High-Velocity Rounds', 'Lead from Gold', 'Rampage']
 dimwishlist:item=981718087&perks=3525010810,2822142346,1556840489,3425386926,186337601
 
 // TruthTeller
+== Truthteller ['Quick Launch', 'Blinding Grenades', 'Auto-Loading Holster', 'Disruption Break']
 dimwishlist:item=1946491241&perks=3525010810,3032599245,3300816228,1683379515,186337601
 
 // Pardon Our Dust
+== Pardon Our Dust ['Quick Launch', 'Blinding Grenades', 'Auto-Loading Holster', 'Rampage']
 dimwishlist:item=3849810018&perks=3525010810,3032599245,3300816228,3425386926,186337601
 
 // Empty Vessel
+== Empty Vessel ['Quick Launch', 'Blinding Grenades', 'Auto-Loading Holster', 'Disruption Break']
 dimwishlist:item=4255586669&perks=3525010810,3032599245,3300816228,1683379515,186337601
 
 
 Rocket launcher:
 // The Hothead (Adept)
+== The Hothead (Adept) ['Quick Launch', 'Impact Casing', 'Tracking Module', 'Vorpal Weapon']
 dimwishlist:item=1866778462&perks=3525010810,3796465595,3977735242,1546637391,186337601
 
 // Hezen Vengeance
+== Hezen Vengeance (Timelost) ['Quick Launch', 'Impact Casing', 'Tracking Module', 'Lasting Impression']
 dimwishlist:item=1921159786&perks=3525010810,3796465595,3977735242,3927722942,186337601
 
 // Royal entry
+== Royal Entry ['Quick Launch', 'Impact Casing', 'Auto-Loading Holster', 'Lasting Impression']
 dimwishlist:item=2448907086&perks=3525010810,3796465595,3300816228,3927722942,186337601
 
 // Code Duello
+== Code Duello ['Quick Launch', 'Impact Casing', 'Auto-Loading Holster', 'Lasting Impression']
 dimwishlist:item=2496242052&perks=3525010810,3796465595,3300816228,3927722942,186337601
 
 // Apex Predator
+== Apex Predator ['Quick Launch', 'Impact Casing', 'Tracking Module', 'Auto-Loading Holster']
 dimwishlist:item=2545083870&perks=3525010810,3796465595,3977735242,3300816228,186337601
 
 // Sleepless
+== Sleepless ['Quick Launch', 'Impact Casing', 'Tracking Module', 'Vorpal Weapon']
 dimwishlist:item=3740842661&perks=3525010810,3796465595,3977735242,1546637391,186337601
 
 // Hezen Vengeance
+== Hezen Vengeance ['Quick Launch', 'Impact Casing', 'Tracking Module', 'Lasting Impression']
 dimwishlist:item=4050645223&perks=3525010810,3796465595,3977735242,3927722942,186337601
 
 // The Hothead
+== The Hothead ['Quick Launch', 'Impact Casing', 'Tracking Module', 'Vorpal Weapon']
 dimwishlist:item=4255171531&perks=3525010810,3796465595,3977735242,1546637391,186337601
 
 
 Linear Fusion Rifles:
 // Reed's Regret
+== Reed's Regret ['Fluted Barrel', 'Accelerated Coils', 'Clown Cartridge', 'Firing Line']
 dimwishlist:item=1399243961&perks=1840239774,689005463,2284787283,1771339417,3128594062
 
 // Reed's Regret (Adept)
+== Reed's Regret (Adept) ['Fluted Barrel', 'Accelerated Coils', 'Clown Cartridge', 'Firing Line']
 dimwishlist:item=2475355656&perks=1840239774,689005463,2284787283,1771339417,3128594062
 
 // Threaded Needle
+== Threaded Needle ['Fluted Barrel', 'Enhanced Battery', 'Rapid Hit', 'Vorpal Weapon']
 dimwishlist:item=3075224551&perks=1840239774,2680121939,247725512,1546637391,3128594062
 
 // Tarantula
+== Tarantula ['Fluted Barrel', 'Ionized Battery', 'Moving Target', 'Snapshot Sights']
 dimwishlist:item=3335343363&perks=1840239774,1483536627,588594999,957782887,3128594062
 
 Machine Guns:
 // The Swarm
+== THE SWARM ['Arrowhead Brake', 'Steady Rounds', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=47772649&perks=839105230,3177308360,1359896290,1890422124,384158423
 
 // Avalanche
+== Avalanche ['Flared Magwell', 'Subsistence', 'Tap the Trigger', 'Masterwork']
 dimwishlist:item=66875353&perks=3230963543,1820235745,1890422124,384158423
 
 // Corrective Measure
+== Corrective Measure ['Chambered Compensator', 'Tactical Mag', 'Subsistence', 'Tap the Trigger']
 dimwishlist:item=471518543&perks=3661387068,106909392,1820235745,1890422124,384158423
 
 // Archon's Thunder
+== Archon's Thunder ['Chambered Compensator', 'Steady Rounds', 'Surplus', 'Iron Grip']
 dimwishlist:item=1967303408&perks=3661387068,3177308360,3436462433,11551321,384158423
 
 // Shattered Cipher
+== Shattered Cipher ['Chambered Compensator', 'Steady Rounds', 'Under Pressure', 'Rampage']
 dimwishlist:item=2434225986&perks=3661387068,3177308360,1645158859,3425386926,384158423
 
 // Seventh Seraph SAW
+== Seventh Seraph SAW ['Chambered Compensator', 'Flared Magwell', 'Clown Cartridge', 'Firing Line']
 dimwishlist:item=2582755344&perks=3661387068,3230963543,2284787283,1771339417,384158423
 
 // Corrective Measure (Timelost)
+== Corrective Measure (Timelost) ['Chambered Compensator', 'Tactical Mag', 'Subsistence', 'Tap the Trigger']
 dimwishlist:item=3796510434&perks=3661387068,106909392,1820235745,1890422124,384158423
 
 // The Swarm (Adept)
+== THE SWARM (Adept) ['Chambered Compensator', 'Tactical Mag', 'Dynamic Sway Reduction', 'Tap the Trigger']
 dimwishlist:item=3836861464&perks=3661387068,106909392,1359896290,1890422124,384158423
 
 Swords:
 // Falling Guillotine
+== Falling Guillotine ['Tempered Edge', "Swordmaster's Guard", 'Relentless Strikes', 'Surrounded']
 dimwishlist:item=614426548&perks=938542991,269888150,1749209109,3708227201,3486498337
+== Falling Guillotine ['Tempered Edge', "Swordmaster's Guard", 'Tireless Blade', 'Surrounded']
 dimwishlist:item=614426548&perks=938542991,269888150,2590710093,3708227201,3486498337
 
 // Sola's Scar
+== Sola's Scar ['Tempered Edge', "Swordmaster's Guard", 'Relentless Strikes', 'Chain Reaction']
 dimwishlist:item=1313528549&perks=938542991,269888150,1749209109,2396489472,3486498337
 
 // Hero's of Ages
+== Hero of Ages ['Tempered Edge', "Swordmaster's Guard", 'Relentless Strikes', 'Chain Reaction']
 dimwishlist:item=2139640995&perks=938542991,269888150,1749209109,2396489472,3486498337
+== Hero of Ages ['Tempered Edge', "Swordmaster's Guard", 'Relentless Strikes', 'One for All']
 dimwishlist:item=2139640995&perks=938542991,269888150,1749209109,4049631843,3486498337
 
 // Quick Fang
+== Quickfang ['Tempered Edge', 'Relentless Strikes', 'One for All', 'Masterwork']
 dimwishlist:item=2782325300&perks=938542991,1749209109,4049631843,3486498337
 
 // Eternities Edge
+== Eternity's Edge ['Tempered Edge', 'Relentless Strikes', 'Surrounded', 'Masterwork']
 dimwishlist:item=2782325301&perks=938542991,1749209109,3708227201,3486498337
 
 // Crown Splitter
+== Crown-Splitter ['Tempered Edge', 'Relentless Strikes', 'Surrounded', 'Masterwork']
 dimwishlist:item=2782325302&perks=938542991,1749209109,3708227201,3486498337
 
 // Half-Truths
+== Half-Truths ['Jagged Edge', 'Enduring Guard', 'Relentless Strikes', 'Eager Edge']
 dimwishlist:item=3257091166&perks=3666208348,599007201,1749209109,2077819806,3486498337
 
 // The Other Half
+== The Other Half ['Jagged Edge', 'Enduring Guard', 'Eager Edge', 'Surrounded']
 dimwishlist:item=3257091167&perks=3666208348,599007201,2077819806,3708227201,3486498337
 
 // Zephyr
+== Zephyr ['Tempered Edge', "Swordmaster's Guard", 'Relentless Strikes', 'Cold Steel']
 dimwishlist:item=3400256755&perks=938542991,269888150,1749209109,3650930298,3486498337
+== Zephyr ['Tempered Edge', "Swordmaster's Guard", 'Unrelenting', 'Cold Steel']
 dimwishlist:item=3400256755&perks=938542991,269888150,3108830275,3650930298,3486498337
 
 // Negative Space
+== Negative Space ['Tempered Edge', "Swordmaster's Guard", 'Relentless Strikes', 'Surrounded']
 dimwishlist:item=3629968765&perks=938542991,269888150,1749209109,3708227201,3486498337
