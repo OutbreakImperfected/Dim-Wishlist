@@ -1,5 +1,6 @@
 import os
 from pprint import pprint
+from typing import List
 
 import requests
 import json
@@ -16,8 +17,12 @@ def update_database(payload: dict):
 
     masterworks = {}
 
-    # Function for extracting the perk name and hash from the database entry
-    def pull_perks(target: int):
+    def pull_perks(target: int) -> List[str]:
+        """
+        Function for extracting the perk name and hash from the database entry
+        :param target: the hash of target perk pool
+        :return: return a list of hashes of perks in the perk pool
+        """
         res_list = []
         pl = payload['DestinyPlugSetDefinition'][str(target)]['reusablePlugItems']
         for x in pl:
@@ -58,17 +63,17 @@ def update_database(payload: dict):
                 elif "randomizedPlugSetHash" not in lst[pos]:
                     if "reusablePlugSetHash" in lst[pos]:
                         perks_list.append(pull_perks(lst[pos]['reusablePlugSetHash']))
-                        print("fix")
+                        # print("fix")
                         rnd = False
                     else:
                         # there's always some error data or so
-                        print('Fail')
+                        # print('Fail')
                         suc = False
                         break
                 # Perk pool for specific row
                 else:
                     val = lst[pos]['randomizedPlugSetHash']
-                    print(val)
+                    # print(val)
                     perks_list.append(pull_perks(val))
 
             if suc:
@@ -100,27 +105,33 @@ def update(force_update=False):
     data = ret.json()
 
     # Check update
+    print("Checking update")
     if os.path.isfile('data/manifest.json'):
         with open('data/manifest.json', 'r') as f:
             old = json.load(f)
 
             # No update needed
             if old['Response']['version'] == data['Response']['version'] and not force_update:
+                print("No update needed")
                 return
 
     # Save new manifest file
     with open('data/manifest.json', 'w') as f:
+        print("Saving manifest file")
         json.dump(data, f)
 
     # Fetch new raw database
+    print("Downliading newest database")
     url = f"https://www.bungie.net{data['Response']['jsonWorldContentPaths']['en']}"
     ret = requests.get(url)
     data = ret.json()
 
     with open('data/en.json', 'w', encoding='utf8') as f:
+        print("Saving new database")
         json.dump(data, f)
 
     # Update local database
+    print("Updating database")
     update_database(data)
 
 

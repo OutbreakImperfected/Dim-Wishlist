@@ -32,7 +32,7 @@ def extract(raw: str) -> Optional[Tuple[str, Sequence[str]]]:
         None if the text is not in expected format.
         Tuple consists of hashes of weapon name and perks
     """
-    ptn = r'dimwishlist:item=(\d*)&perks=(\d*),(\d*),(\d*),(\d*)'
+    ptn = r'dimwishlist:item=(\d*)&perks=((\d*,)*(\d*))$'
     objs = re.match(ptn, raw)
 
     if objs is None:
@@ -40,21 +40,21 @@ def extract(raw: str) -> Optional[Tuple[str, Sequence[str]]]:
 
     matched = objs.groups()
 
-    if len(matched) != 5:
+    if len(matched) < 2:
         # Shouldn't be triggered but just in case'
         raise Exception("Unknown string format")
 
-    res = (matched[0], matched[1:5])
+    res = (matched[0], matched[1].split(','))
 
     return res
 
 
-def interpret_file(file: str):
+def interpret_file(file: str) -> str:
     """
     Read the file and translate it
     I think it hasn't been used yet but just left it here for future use
-    :param file:
-    :return:
+    :param file: File path
+    :return: Translated string
     """
     r = ""
     with open(file, 'r', encoding='utf8') as f:
@@ -62,11 +62,11 @@ def interpret_file(file: str):
         return interpret(lines)
 
 
-def interpret(raw: str):
+def interpret(raw: str) -> str:
     """
     Function for translating the lines into human readable texts
-    :param raw:
-    :return:
+    :param raw: Raw input string
+    :return: Translated strings
     """
     lst = raw.split('\n')
     r = ''
@@ -78,10 +78,10 @@ def interpret(raw: str):
                 name = weapons_dict[data[0]]['name']
                 perks = []
                 for i in data[1]:
-                    if i in perks_dict:
-                        perks.append(perks_dict[i])
+                    if i in masterwork_dict:
+                        perks.append(masterwork_dict[i])
                     else:
-                        perks.append('Masterwork')
+                        perks.append(perks_dict[i])
 
                 r += f"{name} {perks}\n"
                 pass
@@ -92,5 +92,5 @@ def interpret(raw: str):
 
 
 if __name__ == '__main__':
-    intp = interpret_file('data/testfile.txt')
+    intp = interpret_file('data/wishlist')
     print(intp)
