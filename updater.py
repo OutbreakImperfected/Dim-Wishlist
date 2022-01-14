@@ -6,11 +6,17 @@ import json
 
 
 def update_database(payload: dict):
+    """
+    Update the local database based on the response received from bungie API
+    :param payload: the response received from bungie API
+    :return: None
+    """
     weapons = {}
     perks = {}
 
     masterworks = {}
 
+    # Function for extracting the perk name and hash from the database entry
     def pull_perks(target: int):
         res_list = []
         pl = payload['DestinyPlugSetDefinition'][str(target)]['reusablePlugItems']
@@ -21,13 +27,16 @@ def update_database(payload: dict):
             res_list.append(str(x['plugItemHash']))
         return res_list
 
+    # Extract the masterwork and weapon entries from database
     for k, v in payload['DestinyInventoryItemDefinition'].items():
+        # Check if it's a masterwork
         if 'plug' in v and 'uiPlugLabel' in v['plug'] and v['plug']['uiPlugLabel'] == 'masterwork':
             rl = v['plug']['plugCategoryIdentifier']
             pl = rl.split('.')
-            if len(pl) >= 2 and pl[-2] == 'stat':
-                masterworks[k] = (v['plug']['plugCategoryIdentifier'], pl[-1])
+            if len(pl) >= 3 and pl[-2] == 'stat' and pl[2] == 'weapons':
+                masterworks[k] = f"M.{pl[-1]}"
             continue
+        # Check if it's a weapon
         if 'itemCategoryHashes' in v and 1 in v['itemCategoryHashes'] and v['inventory']['tierType'] == 5:
             print(k, v['displayProperties']['name'])
             # pprint(v)
@@ -56,6 +65,7 @@ def update_database(payload: dict):
                         print('Fail')
                         suc = False
                         break
+                # Perk pool for specific row
                 else:
                     val = lst[pos]['randomizedPlugSetHash']
                     print(val)
@@ -67,16 +77,23 @@ def update_database(payload: dict):
                     "randomness": rnd,
                     "perks": perks_list}
 
-    pprint(masterworks)
-
+    # Save data
     with open('data/weapons.json', 'w') as f:
         json.dump(weapons, f, indent=2)
 
     with open('data/perks.json', 'w') as f:
         json.dump(perks, f, indent=2)
 
+    with open('data/masterworks.json', 'w') as f:
+        json.dump(masterworks, f, indent=2)
+
 
 def update(force_update=False):
+    """
+    Check if there's updates Destiny2 database
+    :param force_update: force update the local database
+    :return: None
+    """
     # Path of Destiny 2 Manifest
     url = "https://www.bungie.net/Platform/Destiny2/Manifest/"
     ret = requests.get(url)

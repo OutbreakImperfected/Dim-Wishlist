@@ -5,10 +5,13 @@ from typing import Tuple, Sequence, Optional
 
 from updater import update
 
+# Check if data files exist
 if not os.path.isdir('data'):
     os.mkdir('data/')
 
-if not os.path.isfile('data/perks.json') or not os.path.isfile('data/weapons.json'):
+if not os.path.isfile('data/perks.json') \
+        or not os.path.isfile('data/weapons.json') \
+        or not os.path.isfile('data/masterworks.json'):
     update()
 
 with open('data/perks.json', 'r', encoding='utf8') as f:
@@ -17,8 +20,18 @@ with open('data/perks.json', 'r', encoding='utf8') as f:
 with open('data/weapons.json', 'r', encoding='utf8') as f:
     weapons_dict = json.load(f)
 
+with open('data/masterworks.json', 'r', encoding='utf8') as f:
+    masterwork_dict = json.load(f)
+
 
 def extract(raw: str) -> Optional[Tuple[str, Sequence[str]]]:
+    """
+    Processing the provided text
+    :param raw: the raw input text
+    :return:
+        None if the text is not in expected format.
+        Tuple consists of hashes of weapon name and perks
+    """
     ptn = r'dimwishlist:item=(\d*)&perks=(\d*),(\d*),(\d*),(\d*)'
     objs = re.match(ptn, raw)
 
@@ -28,6 +41,7 @@ def extract(raw: str) -> Optional[Tuple[str, Sequence[str]]]:
     matched = objs.groups()
 
     if len(matched) != 5:
+        # Shouldn't be triggered but just in case'
         raise Exception("Unknown string format")
 
     res = (matched[0], matched[1:5])
@@ -36,6 +50,12 @@ def extract(raw: str) -> Optional[Tuple[str, Sequence[str]]]:
 
 
 def interpret_file(file: str):
+    """
+    Read the file and translate it
+    I think it hasn't been used yet but just left it here for future use
+    :param file:
+    :return:
+    """
     r = ""
     with open(file, 'r', encoding='utf8') as f:
         lines = f.read()
@@ -43,6 +63,11 @@ def interpret_file(file: str):
 
 
 def interpret(raw: str):
+    """
+    Function for translating the lines into human readable texts
+    :param raw:
+    :return:
+    """
     lst = raw.split('\n')
     r = ''
     for line in lst:
