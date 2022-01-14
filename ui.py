@@ -26,7 +26,7 @@ class MY_GUI:
 
     def set_init_window(self):
         self.window_name.title("Hash to Text")
-        self.window_name.geometry('1000x600+300+100')
+        self.window_name.geometry('+300+100')
 
         # Label
         self.input_text_label.grid(row=0, column=0)

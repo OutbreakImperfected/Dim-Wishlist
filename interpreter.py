@@ -62,16 +62,19 @@ def interpret_file(file: str) -> str:
         return interpret(lines)
 
 
-def interpret(raw: str) -> str:
+def interpret(raw: str, add_raw: bool = False) -> str:
     """
     Function for translating the lines into human readable texts
+    :param add_raw: add the raw line before the translation or not
     :param raw: Raw input string
     :return: Translated strings
     """
     lst = raw.split('\n')
     r = ''
     for line in lst:
-        if line[0:3] == 'dim':
+        if line[0:2] == "==":
+            continue
+        if line[0:3] == "dim":
             data = extract(line)
 
             if data:
@@ -82,7 +85,8 @@ def interpret(raw: str) -> str:
                         perks.append(masterwork_dict[i])
                     else:
                         perks.append(perks_dict[i])
-
+                if add_raw:
+                    r += line + '\n'
                 r += f"{name} {perks}\n"
                 pass
         else:
